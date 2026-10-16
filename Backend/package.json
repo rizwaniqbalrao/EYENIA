@@ -17,8 +17,8 @@
     "uuid": "^8.3.2"
   },
   "scripts": {
-    "start": "nodemon server.js",
-    "dev": "nodemon server.js",
+    "start": "node init && nodemon server.js",
+    "dev": "node init && nodemon server.js",
     "docs": "p2o ./docs/openapi.json -f ./docs/openapi.yml -o ./docs/options.json"
   },
   "name": "social_experience_app_dev",
